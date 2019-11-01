@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.dz0189.issue.AssetContractIssueTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-10-30T13:10:57" hostname="ip-172-31-46-176" time="5.489">
+  <properties/>
+  <testcase name="mustIncludeIssueCommand" classname="com.dz0189.issue.AssetContractIssueTests" time="4.529"/>
+  <testcase name="cannotCreateZeroValueAssets" classname="com.dz0189.issue.AssetContractIssueTests" time="0.212"/>
+  <testcase name="issueTransactionMustHaveNoInputs" classname="com.dz0189.issue.AssetContractIssueTests" time="0.145"/>
+  <testcase name="cannotIssueTooManyAssets" classname="com.dz0189.issue.AssetContractIssueTests" time="0.097"/>
+  <testcase name="ownerMustSignIssueTransaction" classname="com.dz0189.issue.AssetContractIssueTests" time="0.091"/>
+  <testcase name="issueTransactionMustHaveOneOutput" classname="com.dz0189.issue.AssetContractIssueTests" time="0.038"/>
+  <system-out><![CDATA[?[37m[INFO] 13:10:56,928 [Test worker] cordapp.CordappLoader.apply - Generating a test-only CorDapp of classes discovered for package com.dz0189.issue in file:/home/ec2-user/environment/cordapp/dz0189-contracts/build/classes/kotlin/test/com/dz0189/issue: build/tmp/generated-test-cordapps/com.dz0189.issue-177a56bd-181b-4196-a4f0-8a8aa14bb03e.jar
+?[m?[37m[INFO] 13:10:57,118 [Test worker] cordapp.CordappLoader.apply - Generating a test-only CorDapp of classes discovered for package com.dz0189.issue in file:/home/ec2-user/environment/cordapp/dz0189-contracts/build/classes/kotlin/main/com/dz0189/issue: build/tmp/generated-test-cordapps/com.dz0189.issue-26b23d25-f28d-4cfd-b597-5857b58849ab.jar
+?[m?[37m[INFO] 13:10:57,155 [Test worker] cordapp.CordappLoader.<init> - Loading CorDapps from RestrictedURL(url=file:/home/ec2-user/environment/cordapp/dz0189-contracts/build/tmp/generated-test-cordapps/com.dz0189.issue-177a56bd-181b-4196-a4f0-8a8aa14bb03e.jar, rootPackageName=null), RestrictedURL(url=file:/home/ec2-user/environment/cordapp/dz0189-contracts/build/tmp/generated-test-cordapps/com.dz0189.issue-26b23d25-f28d-4cfd-b597-5857b58849ab.jar, rootPackageName=null)
+?[m?[37m[INFO] 13:10:57,187 [Test worker] cordapp.CordappLoader.scanCordapp - Scanning CorDapp in file:/home/ec2-user/environment/cordapp/dz0189-contracts/build/tmp/generated-test-cordapps/com.dz0189.issue-177a56bd-181b-4196-a4f0-8a8aa14bb03e.jar
+?[m?[37m[INFO] 13:10:57,262 [Test worker] cordapp.CordappLoader.scanCordapp - Scanning CorDapp in file:/home/ec2-user/environment/cordapp/dz0189-contracts/build/tmp/generated-test-cordapps/com.dz0189.issue-26b23d25-f28d-4cfd-b597-5857b58849ab.jar
+?[m?[31m[WARN] 13:10:57,430 [Test worker] cordapp.CordappProviderImpl.verifyInstalledCordapps - The network parameters don't specify any whitelisted contract implementations. Please contact your zone operator. See https://docs.corda.net/network-map.html
+?[m?[31m[WARN] 13:11:02,073 [Test worker] cordapp.CordappProviderImpl.verifyInstalledCordapps - The network parameters don't specify any whitelisted contract implementations. Please contact your zone operator. See https://docs.corda.net/network-map.html
+?[m?[31m[WARN] 13:11:02,357 [Test worker] cordapp.CordappProviderImpl.verifyInstalledCordapps - The network parameters don't specify any whitelisted contract implementations. Please contact your zone operator. See https://docs.corda.net/network-map.html
+?[m?[31m[WARN] 13:11:02,569 [Test worker] cordapp.CordappProviderImpl.verifyInstalledCordapps - The network parameters don't specify any whitelisted contract implementations. Please contact your zone operator. See https://docs.corda.net/network-map.html
+?[m?[31m[WARN] 13:11:02,729 [Test worker] cordapp.CordappProviderImpl.verifyInstalledCordapps - The network parameters don't specify any whitelisted contract implementations. Please contact your zone operator. See https://docs.corda.net/network-map.html
+?[m?[31m[WARN] 13:11:02,890 [Test worker] cordapp.CordappProviderImpl.verifyInstalledCordapps - The network parameters don't specify any whitelisted contract implementations. Please contact your zone operator. See https://docs.corda.net/network-map.html
+?[m]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

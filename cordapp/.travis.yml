@@ -1,0 +1,50 @@
+sudo: required
+
+env:
+  global:
+    - CORDA_VERSION=3.4
+    - REPO_NAME=cordapp-template
+
+language: java
+dist: trusty
+jdk:
+  - oraclejdk8
+
+before_install:
+  - if [[ $TRAVIS_BUILD_STAGE_NAME != "Test" ]]; then pip install --user awscli --upgrade; fi
+
+jobs:
+  include:
+  - stage: build
+    install:
+    - ./gradlew assemble
+    script:
+    - ./gradlew check
+  - stage: test
+    install:
+    - ./gradlew assemble
+    script:
+    - ./gradlew test
+  - stage: test
+    install:
+    - ./gradlew assemble
+    script:
+    - ./gradlew integrationTest --stacktrace
+
+stages:
+  - build
+  - test
+
+before_cache:
+  - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
+  - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
+
+cache:
+  directories:
+    - $HOME/.gradle/caches/
+    - $HOME/.gradle/wrapper/
+
+notifications:
+  email:
+    on_success: never
+    on_failure: never

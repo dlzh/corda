@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.dz0189.trade.AssetContractNewTradeTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2019-10-31T04:49:32" hostname="ip-172-31-46-176" time="1.352">
+  <properties/>
+  <testcase name="totalInputPridesMustEqualOutputPrides" classname="com.dz0189.trade.AssetContractNewTradeTests" time="0.428"/>
+  <testcase name="totalInputAssetsMustEqualOutputAssets" classname="com.dz0189.trade.AssetContractNewTradeTests" time="0.242"/>
+  <testcase name="mustBeAssetOutputStatesWithRecipientAsOwner" classname="com.dz0189.trade.AssetContractNewTradeTests" time="0.071"/>
+  <testcase name="mustBePrideOutputStatesWithRecipientAsOwner" classname="com.dz0189.trade.AssetContractNewTradeTests" time="0.094"/>
+  <testcase name="mustIncludeTradeCommand" classname="com.dz0189.trade.AssetContractNewTradeTests" time="0.076"/>
+  <system-out><![CDATA[?[37m[INFO] 04:49:32,526 [Test worker] cordapp.CordappLoader.<init> - Loading CorDapps from RestrictedURL(url=file:/home/ec2-user/environment/cordapp/dz0189-contracts-new/build/tmp/generated-test-cordapps/com.dz0189.trade-fb88af7d-8efe-415e-97b1-bc48844f20c5.jar, rootPackageName=null), RestrictedURL(url=file:/home/ec2-user/environment/cordapp/dz0189-contracts-new/build/tmp/generated-test-cordapps/com.dz0189.trade-ed506524-a9f8-4606-a468-816685cfd4ac.jar, rootPackageName=null), RestrictedURL(url=file:/home/ec2-user/environment/cordapp/libs/prides.jar, rootPackageName=com.twig)
+?[m?[37m[INFO] 04:49:32,529 [Test worker] cordapp.CordappLoader.scanCordapp - Scanning CorDapp in file:/home/ec2-user/environment/cordapp/dz0189-contracts-new/build/tmp/generated-test-cordapps/com.dz0189.trade-fb88af7d-8efe-415e-97b1-bc48844f20c5.jar
+?[m?[37m[INFO] 04:49:32,562 [Test worker] cordapp.CordappLoader.scanCordapp - Scanning CorDapp in file:/home/ec2-user/environment/cordapp/dz0189-contracts-new/build/tmp/generated-test-cordapps/com.dz0189.trade-ed506524-a9f8-4606-a468-816685cfd4ac.jar
+?[m?[37m[INFO] 04:49:32,586 [Test worker] cordapp.CordappLoader.scanCordapp - Scanning CorDapp in file:/home/ec2-user/environment/cordapp/libs/prides.jar
+?[m?[31m[WARN] 04:49:32,733 [Test worker] cordapp.CordappProviderImpl.verifyInstalledCordapps - The network parameters don't specify any whitelisted contract implementations. Please contact your zone operator. See https://docs.corda.net/network-map.html
+?[m?[31m[WARN] 04:49:33,262 [Test worker] cordapp.CordappProviderImpl.verifyInstalledCordapps - The network parameters don't specify any whitelisted contract implementations. Please contact your zone operator. See https://docs.corda.net/network-map.html
+?[m?[31m[WARN] 04:49:33,632 [Test worker] cordapp.CordappProviderImpl.verifyInstalledCordapps - The network parameters don't specify any whitelisted contract implementations. Please contact your zone operator. See https://docs.corda.net/network-map.html
+?[m?[31m[WARN] 04:49:33,807 [Test worker] cordapp.CordappProviderImpl.verifyInstalledCordapps - The network parameters don't specify any whitelisted contract implementations. Please contact your zone operator. See https://docs.corda.net/network-map.html
+?[m?[31m[WARN] 04:49:34,011 [Test worker] cordapp.CordappProviderImpl.verifyInstalledCordapps - The network parameters don't specify any whitelisted contract implementations. Please contact your zone operator. See https://docs.corda.net/network-map.html
+?[m]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

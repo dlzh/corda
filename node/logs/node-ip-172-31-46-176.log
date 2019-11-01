@@ -1,0 +1,489 @@
+[INFO ] 2019-11-01T00:58:28,154Z [nioEventLoopGroup-2-2] netty.AMQPClient.operationComplete - Disconnected from 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T00:58:28,169Z [nioEventLoopGroup-2-2] O=Regulator, L=Manila, C=PH.channelInactive - Closed client connection 6dec667a from /35.162.51.152:10062 to /172.31.46.176:38868 {}
+[INFO ] 2019-11-01T00:58:28,170Z [nioEventLoopGroup-2-2] 51.152:10062:O=Regulator, L=Manila, C=PH.onSocketConnected - Bridge Disconnected {}
+[INFO ] 2019-11-01T00:58:28,179Z [nioEventLoopGroup-2-2] O=dz0189, L=Adelaide, C=AU.onConnectionLocalClose - Connection local close org.apache.qpid.proton.engine.impl.ConnectionImpl@26c19720 {}
+[INFO ] 2019-11-01T00:58:28,186Z [nioEventLoopGroup-2-2] O=dz0189, L=Adelaide, C=AU.onTransportError - Transport Error TransportImpl [_connectionEndpoint=org.apache.qpid.proton.engine.impl.ConnectionImpl@26c19720, org.apache.qpid.proton.engine.impl.TransportImpl@417f6d09] {}
+[INFO ] 2019-11-01T00:58:28,186Z [nioEventLoopGroup-2-2] O=dz0189, L=Adelaide, C=AU.onTransportError - Error: connection aborted {}
+[INFO ] 2019-11-01T00:58:29,168Z [nioEventLoopGroup-2-3] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T00:58:36,431Z [nioEventLoopGroup-2-4] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T00:58:38,435Z [nioEventLoopGroup-2-1] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T00:58:38,438Z [nioEventLoopGroup-2-2] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T00:58:42,442Z [nioEventLoopGroup-2-3] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T00:58:42,444Z [nioEventLoopGroup-2-4] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T00:58:50,445Z [nioEventLoopGroup-2-1] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T00:58:50,447Z [nioEventLoopGroup-2-2] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T00:58:54,969Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Disconnected from 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T00:58:54,970Z [nioEventLoopGroup-2-1] O=SMURFIES-pca246, L=Taipei, C=TW.channelInactive - Closed client connection e6a3ebf0 from /35.162.51.152:10399 to /172.31.46.176:39778 {}
+[INFO ] 2019-11-01T00:58:54,971Z [nioEventLoopGroup-2-1] 51.152:10399:O=SMURFIES-pca246, L=Taipei, C=TW.onSocketConnected - Bridge Disconnected {}
+[INFO ] 2019-11-01T00:58:54,973Z [nioEventLoopGroup-2-1] O=dz0189, L=Adelaide, C=AU.onConnectionLocalClose - Connection local close org.apache.qpid.proton.engine.impl.ConnectionImpl@363b321f {}
+[INFO ] 2019-11-01T00:58:54,973Z [nioEventLoopGroup-2-1] O=dz0189, L=Adelaide, C=AU.onTransportError - Transport Error TransportImpl [_connectionEndpoint=org.apache.qpid.proton.engine.impl.ConnectionImpl@363b321f, org.apache.qpid.proton.engine.impl.TransportImpl@3449241e] {}
+[INFO ] 2019-11-01T00:58:54,973Z [nioEventLoopGroup-2-1] O=dz0189, L=Adelaide, C=AU.onTransportError - Error: connection aborted {}
+[INFO ] 2019-11-01T00:58:55,971Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T00:58:56,975Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T00:58:58,976Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T00:58:58,978Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T00:59:02,981Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T00:59:02,983Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T00:59:06,448Z [nioEventLoopGroup-2-3] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T00:59:06,450Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T00:59:10,987Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T00:59:10,990Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T00:59:27,002Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T00:59:27,004Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Connected to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T00:59:27,006Z [nioEventLoopGroup-2-3] O=SMURFIES-pca246, L=Taipei, C=TW.channelActive - New client connection a57b90ba from /35.162.51.152:10399 to /172.31.46.176:50778 {}
+[INFO ] 2019-11-01T00:59:27,102Z [nioEventLoopGroup-2-3] netty.LoggingTrustManagerWrapper.checkServerTrusted - Check Server Certpath:
+  C=TW,L=Taipei,O=SMURFIES-pca246[670533205A64A0D8EE4D0AB79B7A3B670C361A8E] issued by C=TW,L=Taipei,O=SMURFIES-pca246[null]
+  C=TW,L=Taipei,O=SMURFIES-pca246[33E274C8A1E57B94566AC4CD0E2B92B81DEFF8CE] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Doorman[null]
+  C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Doorman[8DE2CF0DD68F28500E3E8892BC4323C34A7F416C] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[null]
+  C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[191115C9AA09B66A9BA1955528DF506862773E3A] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[null] {}
+[INFO ] 2019-11-01T00:59:27,246Z [nioEventLoopGroup-2-3] O=SMURFIES-pca246, L=Taipei, C=TW.userEventTriggered - Handshake completed with subject: O=SMURFIES-pca246, L=Taipei, C=TW {}
+[INFO ] 2019-11-01T00:59:27,247Z [nioEventLoopGroup-2-3] 51.152:10399:O=SMURFIES-pca246, L=Taipei, C=TW.onSocketConnected - Bridge Connected {}
+[INFO ] 2019-11-01T00:59:27,250Z [nioEventLoopGroup-2-3] O=dz0189, L=Adelaide, C=AU.onConnectionLocalOpen - Connection local open org.apache.qpid.proton.engine.impl.ConnectionImpl@55cb074f {}
+[INFO ] 2019-11-01T00:59:35,182Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Disconnected from 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T00:59:35,183Z [nioEventLoopGroup-2-3] O=SMURFIES-pca246, L=Taipei, C=TW.channelInactive - Closed client connection a57b90ba from /35.162.51.152:10399 to /172.31.46.176:50778 {}
+[INFO ] 2019-11-01T00:59:35,183Z [nioEventLoopGroup-2-3] 51.152:10399:O=SMURFIES-pca246, L=Taipei, C=TW.onSocketConnected - Bridge Disconnected {}
+[INFO ] 2019-11-01T00:59:35,185Z [nioEventLoopGroup-2-3] O=dz0189, L=Adelaide, C=AU.onConnectionLocalClose - Connection local close org.apache.qpid.proton.engine.impl.ConnectionImpl@55cb074f {}
+[INFO ] 2019-11-01T00:59:35,186Z [nioEventLoopGroup-2-3] O=dz0189, L=Adelaide, C=AU.onTransportError - Transport Error TransportImpl [_connectionEndpoint=org.apache.qpid.proton.engine.impl.ConnectionImpl@55cb074f, org.apache.qpid.proton.engine.impl.TransportImpl@6aba450d] {}
+[INFO ] 2019-11-01T00:59:35,186Z [nioEventLoopGroup-2-3] O=dz0189, L=Adelaide, C=AU.onTransportError - Error: connection aborted {}
+[INFO ] 2019-11-01T00:59:36,183Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T00:59:36,186Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T00:59:38,188Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T00:59:38,454Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T00:59:38,456Z [nioEventLoopGroup-2-4] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T00:59:41,231Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T00:59:45,234Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T00:59:45,237Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T00:59:53,245Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T00:59:53,248Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:00:09,263Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:00:09,265Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:00:41,286Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:00:41,289Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:00:42,457Z [nioEventLoopGroup-2-1] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:00:42,460Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:01:45,343Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:01:45,345Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Connected to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:01:45,346Z [nioEventLoopGroup-2-1] O=SMURFIES-pca246, L=Taipei, C=TW.channelActive - New client connection 2b934ba0 from /35.162.51.152:10399 to /172.31.46.176:50812 {}
+[INFO ] 2019-11-01T01:01:45,353Z [nioEventLoopGroup-2-1] netty.LoggingTrustManagerWrapper.checkServerTrusted - Check Server Certpath:
+  C=TW,L=Taipei,O=SMURFIES-pca246[670533205A64A0D8EE4D0AB79B7A3B670C361A8E] issued by C=TW,L=Taipei,O=SMURFIES-pca246[null]
+  C=TW,L=Taipei,O=SMURFIES-pca246[33E274C8A1E57B94566AC4CD0E2B92B81DEFF8CE] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Doorman[null]
+  C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Doorman[8DE2CF0DD68F28500E3E8892BC4323C34A7F416C] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[null]
+  C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[191115C9AA09B66A9BA1955528DF506862773E3A] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[null] {}
+[INFO ] 2019-11-01T01:01:45,376Z [nioEventLoopGroup-2-1] O=SMURFIES-pca246, L=Taipei, C=TW.userEventTriggered - Handshake completed with subject: O=SMURFIES-pca246, L=Taipei, C=TW {}
+[INFO ] 2019-11-01T01:01:45,376Z [nioEventLoopGroup-2-1] 51.152:10399:O=SMURFIES-pca246, L=Taipei, C=TW.onSocketConnected - Bridge Connected {}
+[INFO ] 2019-11-01T01:01:45,381Z [nioEventLoopGroup-2-1] O=dz0189, L=Adelaide, C=AU.onConnectionLocalOpen - Connection local open org.apache.qpid.proton.engine.impl.ConnectionImpl@30a554e8 {}
+[INFO ] 2019-11-01T01:02:50,552Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:02:50,554Z [nioEventLoopGroup-2-2] netty.AMQPClient.operationComplete - Connected to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:02:50,554Z [nioEventLoopGroup-2-2] O=Regulator, L=Manila, C=PH.channelActive - New client connection d9a58451 from /35.162.51.152:10062 to /172.31.46.176:49914 {}
+[INFO ] 2019-11-01T01:02:50,562Z [nioEventLoopGroup-2-2] netty.LoggingTrustManagerWrapper.checkServerTrusted - Check Server Certpath:
+  C=PH,L=Manila,O=Regulator[DB2E2D7523CFD9BDE8FADA77297FDD1F2C4849A9] issued by C=PH,L=Manila,O=Regulator[null]
+  C=PH,L=Manila,O=Regulator[BBA46948959CC9C51BF4E1218BEE52FDFA338E37] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Doorman[null]
+  C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Doorman[8DE2CF0DD68F28500E3E8892BC4323C34A7F416C] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[null]
+  C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[191115C9AA09B66A9BA1955528DF506862773E3A] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[null] {}
+[INFO ] 2019-11-01T01:02:50,576Z [nioEventLoopGroup-2-2] O=Regulator, L=Manila, C=PH.userEventTriggered - Handshake completed with subject: O=Regulator, L=Manila, C=PH {}
+[INFO ] 2019-11-01T01:02:50,576Z [nioEventLoopGroup-2-2] 51.152:10062:O=Regulator, L=Manila, C=PH.onSocketConnected - Bridge Connected {}
+[INFO ] 2019-11-01T01:02:50,579Z [nioEventLoopGroup-2-2] O=dz0189, L=Adelaide, C=AU.onConnectionLocalOpen - Connection local open org.apache.qpid.proton.engine.impl.ConnectionImpl@18122f92 {}
+[INFO ] 2019-11-01T01:04:51,433Z [nioEventLoopGroup-2-2] netty.AMQPClient.operationComplete - Disconnected from 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:04:51,434Z [nioEventLoopGroup-2-2] O=Regulator, L=Manila, C=PH.channelInactive - Closed client connection d9a58451 from /35.162.51.152:10062 to /172.31.46.176:49914 {}
+[INFO ] 2019-11-01T01:04:51,434Z [nioEventLoopGroup-2-2] 51.152:10062:O=Regulator, L=Manila, C=PH.onSocketConnected - Bridge Disconnected {}
+[INFO ] 2019-11-01T01:04:51,436Z [nioEventLoopGroup-2-2] O=dz0189, L=Adelaide, C=AU.onConnectionLocalClose - Connection local close org.apache.qpid.proton.engine.impl.ConnectionImpl@18122f92 {}
+[INFO ] 2019-11-01T01:04:51,437Z [nioEventLoopGroup-2-2] O=dz0189, L=Adelaide, C=AU.onTransportError - Transport Error TransportImpl [_connectionEndpoint=org.apache.qpid.proton.engine.impl.ConnectionImpl@18122f92, org.apache.qpid.proton.engine.impl.TransportImpl@75da3589] {}
+[INFO ] 2019-11-01T01:04:51,437Z [nioEventLoopGroup-2-2] O=dz0189, L=Adelaide, C=AU.onTransportError - Error: connection aborted {}
+[INFO ] 2019-11-01T01:04:52,435Z [nioEventLoopGroup-2-3] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:04:59,663Z [nioEventLoopGroup-2-4] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:05:01,664Z [nioEventLoopGroup-2-1] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:05:01,667Z [nioEventLoopGroup-2-2] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:05:05,671Z [nioEventLoopGroup-2-3] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:05:05,674Z [nioEventLoopGroup-2-4] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:05:13,675Z [nioEventLoopGroup-2-1] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:05:13,677Z [nioEventLoopGroup-2-2] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:05:18,293Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Disconnected from 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:05:18,294Z [nioEventLoopGroup-2-1] O=SMURFIES-pca246, L=Taipei, C=TW.channelInactive - Closed client connection 2b934ba0 from /35.162.51.152:10399 to /172.31.46.176:50812 {}
+[INFO ] 2019-11-01T01:05:18,294Z [nioEventLoopGroup-2-1] 51.152:10399:O=SMURFIES-pca246, L=Taipei, C=TW.onSocketConnected - Bridge Disconnected {}
+[INFO ] 2019-11-01T01:05:18,301Z [nioEventLoopGroup-2-1] O=dz0189, L=Adelaide, C=AU.onConnectionLocalClose - Connection local close org.apache.qpid.proton.engine.impl.ConnectionImpl@30a554e8 {}
+[INFO ] 2019-11-01T01:05:18,301Z [nioEventLoopGroup-2-1] O=dz0189, L=Adelaide, C=AU.onTransportError - Transport Error TransportImpl [_connectionEndpoint=org.apache.qpid.proton.engine.impl.ConnectionImpl@30a554e8, org.apache.qpid.proton.engine.impl.TransportImpl@6e8a0cab] {}
+[INFO ] 2019-11-01T01:05:18,301Z [nioEventLoopGroup-2-1] O=dz0189, L=Adelaide, C=AU.onTransportError - Error: connection aborted {}
+[INFO ] 2019-11-01T01:05:19,295Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:05:20,303Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:05:22,305Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:05:22,307Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:05:26,309Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:05:26,312Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:05:29,682Z [nioEventLoopGroup-2-3] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:05:29,684Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:05:34,317Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:05:34,320Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:05:50,336Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:05:50,338Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:06:01,693Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:06:01,695Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:06:22,358Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:06:22,360Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Connected to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:06:22,360Z [nioEventLoopGroup-2-3] O=SMURFIES-pca246, L=Taipei, C=TW.channelActive - New client connection 5c388d49 from /35.162.51.152:10399 to /172.31.46.176:50868 {}
+[INFO ] 2019-11-01T01:06:22,626Z [nioEventLoopGroup-2-3] netty.LoggingTrustManagerWrapper.checkServerTrusted - Check Server Certpath:
+  C=TW,L=Taipei,O=SMURFIES-pca246[670533205A64A0D8EE4D0AB79B7A3B670C361A8E] issued by C=TW,L=Taipei,O=SMURFIES-pca246[null]
+  C=TW,L=Taipei,O=SMURFIES-pca246[33E274C8A1E57B94566AC4CD0E2B92B81DEFF8CE] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Doorman[null]
+  C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Doorman[8DE2CF0DD68F28500E3E8892BC4323C34A7F416C] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[null]
+  C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[191115C9AA09B66A9BA1955528DF506862773E3A] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[null] {}
+[INFO ] 2019-11-01T01:06:22,643Z [nioEventLoopGroup-2-3] O=SMURFIES-pca246, L=Taipei, C=TW.userEventTriggered - Handshake completed with subject: O=SMURFIES-pca246, L=Taipei, C=TW {}
+[INFO ] 2019-11-01T01:06:22,644Z [nioEventLoopGroup-2-3] 51.152:10399:O=SMURFIES-pca246, L=Taipei, C=TW.onSocketConnected - Bridge Connected {}
+[INFO ] 2019-11-01T01:06:22,648Z [nioEventLoopGroup-2-3] O=dz0189, L=Adelaide, C=AU.onConnectionLocalOpen - Connection local open org.apache.qpid.proton.engine.impl.ConnectionImpl@5ef8a7eb {}
+[INFO ] 2019-11-01T01:06:41,242Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Disconnected from 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:06:41,242Z [nioEventLoopGroup-2-3] O=SMURFIES-pca246, L=Taipei, C=TW.channelInactive - Closed client connection 5c388d49 from /35.162.51.152:10399 to /172.31.46.176:50868 {}
+[INFO ] 2019-11-01T01:06:41,242Z [nioEventLoopGroup-2-3] 51.152:10399:O=SMURFIES-pca246, L=Taipei, C=TW.onSocketConnected - Bridge Disconnected {}
+[INFO ] 2019-11-01T01:06:41,246Z [nioEventLoopGroup-2-3] O=dz0189, L=Adelaide, C=AU.onConnectionLocalClose - Connection local close org.apache.qpid.proton.engine.impl.ConnectionImpl@5ef8a7eb {}
+[INFO ] 2019-11-01T01:06:41,247Z [nioEventLoopGroup-2-3] O=dz0189, L=Adelaide, C=AU.onTransportError - Transport Error TransportImpl [_connectionEndpoint=org.apache.qpid.proton.engine.impl.ConnectionImpl@5ef8a7eb, org.apache.qpid.proton.engine.impl.TransportImpl@3ac11b56] {}
+[INFO ] 2019-11-01T01:06:41,247Z [nioEventLoopGroup-2-3] O=dz0189, L=Adelaide, C=AU.onTransportError - Error: connection aborted {}
+[INFO ] 2019-11-01T01:06:42,243Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:06:43,247Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:06:45,249Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:06:45,252Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:06:49,254Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:06:49,256Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:06:57,264Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:06:57,269Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:07:05,703Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:07:05,707Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:07:13,274Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:07:13,276Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:07:45,306Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:07:45,308Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:08:49,371Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:08:49,374Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:09:13,719Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:09:13,721Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:10:57,441Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:10:57,447Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Connected to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:10:57,448Z [nioEventLoopGroup-2-3] O=SMURFIES-pca246, L=Taipei, C=TW.channelActive - New client connection 4fbc0a3c from /35.162.51.152:10399 to /172.31.46.176:50918 {}
+[INFO ] 2019-11-01T01:10:57,455Z [nioEventLoopGroup-2-3] netty.LoggingTrustManagerWrapper.checkServerTrusted - Check Server Certpath:
+  C=TW,L=Taipei,O=SMURFIES-pca246[670533205A64A0D8EE4D0AB79B7A3B670C361A8E] issued by C=TW,L=Taipei,O=SMURFIES-pca246[null]
+  C=TW,L=Taipei,O=SMURFIES-pca246[33E274C8A1E57B94566AC4CD0E2B92B81DEFF8CE] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Doorman[null]
+  C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Doorman[8DE2CF0DD68F28500E3E8892BC4323C34A7F416C] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[null]
+  C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[191115C9AA09B66A9BA1955528DF506862773E3A] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[null] {}
+[INFO ] 2019-11-01T01:10:57,477Z [nioEventLoopGroup-2-3] O=SMURFIES-pca246, L=Taipei, C=TW.userEventTriggered - Handshake completed with subject: O=SMURFIES-pca246, L=Taipei, C=TW {}
+[INFO ] 2019-11-01T01:10:57,478Z [nioEventLoopGroup-2-3] 51.152:10399:O=SMURFIES-pca246, L=Taipei, C=TW.onSocketConnected - Bridge Connected {}
+[INFO ] 2019-11-01T01:10:57,481Z [nioEventLoopGroup-2-3] O=dz0189, L=Adelaide, C=AU.onConnectionLocalOpen - Connection local open org.apache.qpid.proton.engine.impl.ConnectionImpl@2ff3e87b {}
+[INFO ] 2019-11-01T01:13:29,817Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:13:29,820Z [nioEventLoopGroup-2-4] netty.AMQPClient.operationComplete - Connected to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:13:29,820Z [nioEventLoopGroup-2-4] O=Regulator, L=Manila, C=PH.channelActive - New client connection 7bcad3b5 from /35.162.51.152:10062 to /172.31.46.176:50026 {}
+[INFO ] 2019-11-01T01:13:29,828Z [nioEventLoopGroup-2-4] netty.LoggingTrustManagerWrapper.checkServerTrusted - Check Server Certpath:
+  C=PH,L=Manila,O=Regulator[DB2E2D7523CFD9BDE8FADA77297FDD1F2C4849A9] issued by C=PH,L=Manila,O=Regulator[null]
+  C=PH,L=Manila,O=Regulator[BBA46948959CC9C51BF4E1218BEE52FDFA338E37] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Doorman[null]
+  C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Doorman[8DE2CF0DD68F28500E3E8892BC4323C34A7F416C] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[null]
+  C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[191115C9AA09B66A9BA1955528DF506862773E3A] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[null] {}
+[INFO ] 2019-11-01T01:13:29,848Z [nioEventLoopGroup-2-4] O=Regulator, L=Manila, C=PH.userEventTriggered - Handshake completed with subject: O=Regulator, L=Manila, C=PH {}
+[INFO ] 2019-11-01T01:13:29,849Z [nioEventLoopGroup-2-4] 51.152:10062:O=Regulator, L=Manila, C=PH.onSocketConnected - Bridge Connected {}
+[INFO ] 2019-11-01T01:13:29,854Z [nioEventLoopGroup-2-4] O=dz0189, L=Adelaide, C=AU.onConnectionLocalOpen - Connection local open org.apache.qpid.proton.engine.impl.ConnectionImpl@60d639db {}
+[INFO ] 2019-11-01T01:14:18,937Z [nioEventLoopGroup-2-4] netty.AMQPClient.operationComplete - Disconnected from 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:14:18,937Z [nioEventLoopGroup-2-4] O=Regulator, L=Manila, C=PH.channelInactive - Closed client connection 7bcad3b5 from /35.162.51.152:10062 to /172.31.46.176:50026 {}
+[INFO ] 2019-11-01T01:14:18,938Z [nioEventLoopGroup-2-4] 51.152:10062:O=Regulator, L=Manila, C=PH.onSocketConnected - Bridge Disconnected {}
+[INFO ] 2019-11-01T01:14:18,940Z [nioEventLoopGroup-2-4] O=dz0189, L=Adelaide, C=AU.onConnectionLocalClose - Connection local close org.apache.qpid.proton.engine.impl.ConnectionImpl@60d639db {}
+[INFO ] 2019-11-01T01:14:18,941Z [nioEventLoopGroup-2-4] O=dz0189, L=Adelaide, C=AU.onTransportError - Transport Error TransportImpl [_connectionEndpoint=org.apache.qpid.proton.engine.impl.ConnectionImpl@60d639db, org.apache.qpid.proton.engine.impl.TransportImpl@280ecd66] {}
+[INFO ] 2019-11-01T01:14:18,941Z [nioEventLoopGroup-2-4] O=dz0189, L=Adelaide, C=AU.onTransportError - Error: connection aborted {}
+[INFO ] 2019-11-01T01:14:19,939Z [nioEventLoopGroup-2-1] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:14:22,959Z [nioEventLoopGroup-2-2] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:14:24,962Z [nioEventLoopGroup-2-3] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:14:24,964Z [nioEventLoopGroup-2-4] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:14:28,966Z [nioEventLoopGroup-2-1] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:14:28,968Z [nioEventLoopGroup-2-2] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:14:36,971Z [nioEventLoopGroup-2-3] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:14:36,974Z [nioEventLoopGroup-2-4] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:14:44,777Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Disconnected from 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:14:44,778Z [nioEventLoopGroup-2-3] O=SMURFIES-pca246, L=Taipei, C=TW.channelInactive - Closed client connection 4fbc0a3c from /35.162.51.152:10399 to /172.31.46.176:50918 {}
+[INFO ] 2019-11-01T01:14:44,778Z [nioEventLoopGroup-2-3] 51.152:10399:O=SMURFIES-pca246, L=Taipei, C=TW.onSocketConnected - Bridge Disconnected {}
+[INFO ] 2019-11-01T01:14:44,780Z [nioEventLoopGroup-2-3] O=dz0189, L=Adelaide, C=AU.onConnectionLocalClose - Connection local close org.apache.qpid.proton.engine.impl.ConnectionImpl@2ff3e87b {}
+[INFO ] 2019-11-01T01:14:44,780Z [nioEventLoopGroup-2-3] O=dz0189, L=Adelaide, C=AU.onTransportError - Transport Error TransportImpl [_connectionEndpoint=org.apache.qpid.proton.engine.impl.ConnectionImpl@2ff3e87b, org.apache.qpid.proton.engine.impl.TransportImpl@32dc5be2] {}
+[INFO ] 2019-11-01T01:14:44,780Z [nioEventLoopGroup-2-3] O=dz0189, L=Adelaide, C=AU.onTransportError - Error: connection aborted {}
+[INFO ] 2019-11-01T01:14:45,778Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:14:46,799Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:14:48,801Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:14:48,805Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:14:52,809Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:14:52,811Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:14:52,977Z [nioEventLoopGroup-2-1] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:14:52,979Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:15:00,812Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:15:00,815Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:15:16,821Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:15:16,829Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:15:24,982Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:15:24,986Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:15:48,846Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:15:48,848Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Connected to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:15:48,849Z [nioEventLoopGroup-2-1] O=SMURFIES-pca246, L=Taipei, C=TW.channelActive - New client connection 9387ace3 from /35.162.51.152:10399 to /172.31.46.176:50974 {}
+[INFO ] 2019-11-01T01:15:48,987Z [nioEventLoopGroup-2-1] netty.LoggingTrustManagerWrapper.checkServerTrusted - Check Server Certpath:
+  C=TW,L=Taipei,O=SMURFIES-pca246[670533205A64A0D8EE4D0AB79B7A3B670C361A8E] issued by C=TW,L=Taipei,O=SMURFIES-pca246[null]
+  C=TW,L=Taipei,O=SMURFIES-pca246[33E274C8A1E57B94566AC4CD0E2B92B81DEFF8CE] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Doorman[null]
+  C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Doorman[8DE2CF0DD68F28500E3E8892BC4323C34A7F416C] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[null]
+  C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[191115C9AA09B66A9BA1955528DF506862773E3A] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[null] {}
+[INFO ] 2019-11-01T01:15:49,053Z [nioEventLoopGroup-2-1] O=SMURFIES-pca246, L=Taipei, C=TW.userEventTriggered - Handshake completed with subject: O=SMURFIES-pca246, L=Taipei, C=TW {}
+[INFO ] 2019-11-01T01:15:49,054Z [nioEventLoopGroup-2-1] 51.152:10399:O=SMURFIES-pca246, L=Taipei, C=TW.onSocketConnected - Bridge Connected {}
+[INFO ] 2019-11-01T01:15:49,057Z [nioEventLoopGroup-2-1] O=dz0189, L=Adelaide, C=AU.onConnectionLocalOpen - Connection local open org.apache.qpid.proton.engine.impl.ConnectionImpl@61b6f331 {}
+[INFO ] 2019-11-01T01:15:58,909Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Disconnected from 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:15:58,909Z [nioEventLoopGroup-2-1] O=SMURFIES-pca246, L=Taipei, C=TW.channelInactive - Closed client connection 9387ace3 from /35.162.51.152:10399 to /172.31.46.176:50974 {}
+[INFO ] 2019-11-01T01:15:58,910Z [nioEventLoopGroup-2-1] 51.152:10399:O=SMURFIES-pca246, L=Taipei, C=TW.onSocketConnected - Bridge Disconnected {}
+[INFO ] 2019-11-01T01:15:58,913Z [nioEventLoopGroup-2-1] O=dz0189, L=Adelaide, C=AU.onConnectionLocalClose - Connection local close org.apache.qpid.proton.engine.impl.ConnectionImpl@61b6f331 {}
+[INFO ] 2019-11-01T01:15:58,914Z [nioEventLoopGroup-2-1] O=dz0189, L=Adelaide, C=AU.onTransportError - Transport Error TransportImpl [_connectionEndpoint=org.apache.qpid.proton.engine.impl.ConnectionImpl@61b6f331, org.apache.qpid.proton.engine.impl.TransportImpl@54629563] {}
+[INFO ] 2019-11-01T01:15:58,914Z [nioEventLoopGroup-2-1] O=dz0189, L=Adelaide, C=AU.onTransportError - Error: connection aborted {}
+[INFO ] 2019-11-01T01:15:59,910Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:16:00,943Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:16:02,946Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:16:02,948Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:16:06,949Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:16:06,952Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:16:14,958Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:16:14,960Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:16:28,991Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:16:28,994Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:16:30,970Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:16:30,973Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:17:02,979Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:17:02,982Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Connected to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:17:02,982Z [nioEventLoopGroup-2-3] O=SMURFIES-pca246, L=Taipei, C=TW.channelActive - New client connection f83102a3 from /35.162.51.152:10399 to /172.31.46.176:50996 {}
+[INFO ] 2019-11-01T01:17:03,055Z [nioEventLoopGroup-2-3] netty.LoggingTrustManagerWrapper.checkServerTrusted - Check Server Certpath:
+  C=TW,L=Taipei,O=SMURFIES-pca246[670533205A64A0D8EE4D0AB79B7A3B670C361A8E] issued by C=TW,L=Taipei,O=SMURFIES-pca246[null]
+  C=TW,L=Taipei,O=SMURFIES-pca246[33E274C8A1E57B94566AC4CD0E2B92B81DEFF8CE] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Doorman[null]
+  C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Doorman[8DE2CF0DD68F28500E3E8892BC4323C34A7F416C] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[null]
+  C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[191115C9AA09B66A9BA1955528DF506862773E3A] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[null] {}
+[INFO ] 2019-11-01T01:17:03,079Z [nioEventLoopGroup-2-3] O=SMURFIES-pca246, L=Taipei, C=TW.userEventTriggered - Handshake completed with subject: O=SMURFIES-pca246, L=Taipei, C=TW {}
+[INFO ] 2019-11-01T01:17:03,080Z [nioEventLoopGroup-2-3] 51.152:10399:O=SMURFIES-pca246, L=Taipei, C=TW.onSocketConnected - Bridge Connected {}
+[INFO ] 2019-11-01T01:17:03,083Z [nioEventLoopGroup-2-3] O=dz0189, L=Adelaide, C=AU.onConnectionLocalOpen - Connection local open org.apache.qpid.proton.engine.impl.ConnectionImpl@74f953af {}
+[INFO ] 2019-11-01T01:17:13,621Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Disconnected from 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:17:13,621Z [nioEventLoopGroup-2-3] O=SMURFIES-pca246, L=Taipei, C=TW.channelInactive - Closed client connection f83102a3 from /35.162.51.152:10399 to /172.31.46.176:50996 {}
+[INFO ] 2019-11-01T01:17:13,622Z [nioEventLoopGroup-2-3] 51.152:10399:O=SMURFIES-pca246, L=Taipei, C=TW.onSocketConnected - Bridge Disconnected {}
+[INFO ] 2019-11-01T01:17:13,625Z [nioEventLoopGroup-2-3] O=dz0189, L=Adelaide, C=AU.onConnectionLocalClose - Connection local close org.apache.qpid.proton.engine.impl.ConnectionImpl@74f953af {}
+[INFO ] 2019-11-01T01:17:13,625Z [nioEventLoopGroup-2-3] O=dz0189, L=Adelaide, C=AU.onTransportError - Transport Error TransportImpl [_connectionEndpoint=org.apache.qpid.proton.engine.impl.ConnectionImpl@74f953af, org.apache.qpid.proton.engine.impl.TransportImpl@74d4e27b] {}
+[INFO ] 2019-11-01T01:17:13,625Z [nioEventLoopGroup-2-3] O=dz0189, L=Adelaide, C=AU.onTransportError - Error: connection aborted {}
+[INFO ] 2019-11-01T01:17:14,622Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:17:15,631Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:17:17,634Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:17:17,636Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:17:21,638Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:17:21,640Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:17:29,643Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:17:29,646Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:17:45,662Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:17:45,664Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:18:17,696Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:18:17,698Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Connected to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:18:17,699Z [nioEventLoopGroup-2-3] O=SMURFIES-pca246, L=Taipei, C=TW.channelActive - New client connection 004eae28 from /35.162.51.152:10399 to /172.31.46.176:51016 {}
+[INFO ] 2019-11-01T01:18:17,805Z [nioEventLoopGroup-2-3] netty.LoggingTrustManagerWrapper.checkServerTrusted - Check Server Certpath:
+  C=TW,L=Taipei,O=SMURFIES-pca246[670533205A64A0D8EE4D0AB79B7A3B670C361A8E] issued by C=TW,L=Taipei,O=SMURFIES-pca246[null]
+  C=TW,L=Taipei,O=SMURFIES-pca246[33E274C8A1E57B94566AC4CD0E2B92B81DEFF8CE] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Doorman[null]
+  C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Doorman[8DE2CF0DD68F28500E3E8892BC4323C34A7F416C] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[null]
+  C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[191115C9AA09B66A9BA1955528DF506862773E3A] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[null] {}
+[INFO ] 2019-11-01T01:18:17,846Z [nioEventLoopGroup-2-3] O=SMURFIES-pca246, L=Taipei, C=TW.userEventTriggered - Handshake completed with subject: O=SMURFIES-pca246, L=Taipei, C=TW {}
+[INFO ] 2019-11-01T01:18:17,846Z [nioEventLoopGroup-2-3] 51.152:10399:O=SMURFIES-pca246, L=Taipei, C=TW.onSocketConnected - Bridge Connected {}
+[INFO ] 2019-11-01T01:18:17,849Z [nioEventLoopGroup-2-3] O=dz0189, L=Adelaide, C=AU.onConnectionLocalOpen - Connection local open org.apache.qpid.proton.engine.impl.ConnectionImpl@1f3b62da {}
+[INFO ] 2019-11-01T01:18:37,041Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:18:37,043Z [nioEventLoopGroup-2-4] netty.AMQPClient.operationComplete - Connected to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:18:37,043Z [nioEventLoopGroup-2-4] O=Regulator, L=Manila, C=PH.channelActive - New client connection 48ef597a from /35.162.51.152:10062 to /172.31.46.176:50112 {}
+[INFO ] 2019-11-01T01:18:37,078Z [nioEventLoopGroup-2-4] netty.LoggingTrustManagerWrapper.checkServerTrusted - Check Server Certpath:
+  C=PH,L=Manila,O=Regulator[DB2E2D7523CFD9BDE8FADA77297FDD1F2C4849A9] issued by C=PH,L=Manila,O=Regulator[null]
+  C=PH,L=Manila,O=Regulator[BBA46948959CC9C51BF4E1218BEE52FDFA338E37] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Doorman[null]
+  C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Doorman[8DE2CF0DD68F28500E3E8892BC4323C34A7F416C] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[null]
+  C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[191115C9AA09B66A9BA1955528DF506862773E3A] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[null] {}
+[INFO ] 2019-11-01T01:18:37,099Z [nioEventLoopGroup-2-4] O=Regulator, L=Manila, C=PH.userEventTriggered - Handshake completed with subject: O=Regulator, L=Manila, C=PH {}
+[INFO ] 2019-11-01T01:18:37,100Z [nioEventLoopGroup-2-4] 51.152:10062:O=Regulator, L=Manila, C=PH.onSocketConnected - Bridge Connected {}
+[INFO ] 2019-11-01T01:18:37,102Z [nioEventLoopGroup-2-4] O=dz0189, L=Adelaide, C=AU.onConnectionLocalOpen - Connection local open org.apache.qpid.proton.engine.impl.ConnectionImpl@3f77a2d0 {}
+[INFO ] 2019-11-01T01:23:03,037Z [nioEventLoopGroup-2-4] netty.AMQPClient.operationComplete - Disconnected from 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:23:03,037Z [nioEventLoopGroup-2-4] O=Regulator, L=Manila, C=PH.channelInactive - Closed client connection 48ef597a from /35.162.51.152:10062 to /172.31.46.176:50112 {}
+[INFO ] 2019-11-01T01:23:03,038Z [nioEventLoopGroup-2-4] 51.152:10062:O=Regulator, L=Manila, C=PH.onSocketConnected - Bridge Disconnected {}
+[INFO ] 2019-11-01T01:23:03,041Z [nioEventLoopGroup-2-4] O=dz0189, L=Adelaide, C=AU.onConnectionLocalClose - Connection local close org.apache.qpid.proton.engine.impl.ConnectionImpl@3f77a2d0 {}
+[INFO ] 2019-11-01T01:23:03,041Z [nioEventLoopGroup-2-4] O=dz0189, L=Adelaide, C=AU.onTransportError - Transport Error TransportImpl [_connectionEndpoint=org.apache.qpid.proton.engine.impl.ConnectionImpl@3f77a2d0, org.apache.qpid.proton.engine.impl.TransportImpl@25542469] {}
+[INFO ] 2019-11-01T01:23:03,042Z [nioEventLoopGroup-2-4] O=dz0189, L=Adelaide, C=AU.onTransportError - Error: connection aborted {}
+[INFO ] 2019-11-01T01:23:04,038Z [nioEventLoopGroup-2-1] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:23:11,247Z [nioEventLoopGroup-2-2] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:23:13,248Z [nioEventLoopGroup-2-3] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:23:13,250Z [nioEventLoopGroup-2-4] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:23:17,254Z [nioEventLoopGroup-2-1] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:23:17,260Z [nioEventLoopGroup-2-2] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:23:25,262Z [nioEventLoopGroup-2-3] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:23:25,264Z [nioEventLoopGroup-2-4] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:23:29,757Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Disconnected from 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:23:29,757Z [nioEventLoopGroup-2-3] O=SMURFIES-pca246, L=Taipei, C=TW.channelInactive - Closed client connection 004eae28 from /35.162.51.152:10399 to /172.31.46.176:51016 {}
+[INFO ] 2019-11-01T01:23:29,757Z [nioEventLoopGroup-2-3] 51.152:10399:O=SMURFIES-pca246, L=Taipei, C=TW.onSocketConnected - Bridge Disconnected {}
+[INFO ] 2019-11-01T01:23:29,759Z [nioEventLoopGroup-2-3] O=dz0189, L=Adelaide, C=AU.onConnectionLocalClose - Connection local close org.apache.qpid.proton.engine.impl.ConnectionImpl@1f3b62da {}
+[INFO ] 2019-11-01T01:23:29,760Z [nioEventLoopGroup-2-3] O=dz0189, L=Adelaide, C=AU.onTransportError - Transport Error TransportImpl [_connectionEndpoint=org.apache.qpid.proton.engine.impl.ConnectionImpl@1f3b62da, org.apache.qpid.proton.engine.impl.TransportImpl@75c8a674] {}
+[INFO ] 2019-11-01T01:23:29,760Z [nioEventLoopGroup-2-3] O=dz0189, L=Adelaide, C=AU.onTransportError - Error: connection aborted {}
+[INFO ] 2019-11-01T01:23:30,758Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:23:31,791Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:23:33,793Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:23:33,797Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:23:37,801Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:23:37,803Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:23:41,272Z [nioEventLoopGroup-2-1] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:23:41,274Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:23:45,809Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:23:45,813Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:24:01,820Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:24:01,824Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Connected to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:24:01,824Z [nioEventLoopGroup-2-1] O=SMURFIES-pca246, L=Taipei, C=TW.channelActive - New client connection 1017e0ef from /35.162.51.152:10399 to /172.31.46.176:51076 {}
+[INFO ] 2019-11-01T01:24:01,959Z [nioEventLoopGroup-2-1] netty.LoggingTrustManagerWrapper.checkServerTrusted - Check Server Certpath:
+  C=TW,L=Taipei,O=SMURFIES-pca246[670533205A64A0D8EE4D0AB79B7A3B670C361A8E] issued by C=TW,L=Taipei,O=SMURFIES-pca246[null]
+  C=TW,L=Taipei,O=SMURFIES-pca246[33E274C8A1E57B94566AC4CD0E2B92B81DEFF8CE] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Doorman[null]
+  C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Doorman[8DE2CF0DD68F28500E3E8892BC4323C34A7F416C] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[null]
+  C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[191115C9AA09B66A9BA1955528DF506862773E3A] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[null] {}
+[INFO ] 2019-11-01T01:24:02,198Z [nioEventLoopGroup-2-1] O=SMURFIES-pca246, L=Taipei, C=TW.userEventTriggered - Handshake completed with subject: O=SMURFIES-pca246, L=Taipei, C=TW {}
+[INFO ] 2019-11-01T01:24:02,199Z [nioEventLoopGroup-2-1] 51.152:10399:O=SMURFIES-pca246, L=Taipei, C=TW.onSocketConnected - Bridge Connected {}
+[INFO ] 2019-11-01T01:24:02,201Z [nioEventLoopGroup-2-1] O=dz0189, L=Adelaide, C=AU.onConnectionLocalOpen - Connection local open org.apache.qpid.proton.engine.impl.ConnectionImpl@145f635f {}
+[INFO ] 2019-11-01T01:24:08,117Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Disconnected from 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:24:08,117Z [nioEventLoopGroup-2-1] O=SMURFIES-pca246, L=Taipei, C=TW.channelInactive - Closed client connection 1017e0ef from /35.162.51.152:10399 to /172.31.46.176:51076 {}
+[INFO ] 2019-11-01T01:24:08,117Z [nioEventLoopGroup-2-1] 51.152:10399:O=SMURFIES-pca246, L=Taipei, C=TW.onSocketConnected - Bridge Disconnected {}
+[INFO ] 2019-11-01T01:24:08,119Z [nioEventLoopGroup-2-1] O=dz0189, L=Adelaide, C=AU.onConnectionLocalClose - Connection local close org.apache.qpid.proton.engine.impl.ConnectionImpl@145f635f {}
+[INFO ] 2019-11-01T01:24:08,119Z [nioEventLoopGroup-2-1] O=dz0189, L=Adelaide, C=AU.onTransportError - Transport Error TransportImpl [_connectionEndpoint=org.apache.qpid.proton.engine.impl.ConnectionImpl@145f635f, org.apache.qpid.proton.engine.impl.TransportImpl@5872ea5c] {}
+[INFO ] 2019-11-01T01:24:08,119Z [nioEventLoopGroup-2-1] O=dz0189, L=Adelaide, C=AU.onTransportError - Error: connection aborted {}
+[INFO ] 2019-11-01T01:24:09,119Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:24:10,127Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:24:12,130Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:24:12,133Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:24:13,274Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:24:13,276Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:24:16,136Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:24:16,138Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:24:24,146Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:24:24,149Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:24:40,161Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:24:40,165Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:25:12,197Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:25:12,201Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:25:17,282Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:25:17,284Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:26:16,250Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:26:16,254Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Connected to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:26:16,255Z [nioEventLoopGroup-2-3] O=SMURFIES-pca246, L=Taipei, C=TW.channelActive - New client connection 05a5f355 from /35.162.51.152:10399 to /172.31.46.176:51118 {}
+[INFO ] 2019-11-01T01:26:16,330Z [nioEventLoopGroup-2-3] netty.LoggingTrustManagerWrapper.checkServerTrusted - Check Server Certpath:
+  C=TW,L=Taipei,O=SMURFIES-pca246[670533205A64A0D8EE4D0AB79B7A3B670C361A8E] issued by C=TW,L=Taipei,O=SMURFIES-pca246[null]
+  C=TW,L=Taipei,O=SMURFIES-pca246[33E274C8A1E57B94566AC4CD0E2B92B81DEFF8CE] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Doorman[null]
+  C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Doorman[8DE2CF0DD68F28500E3E8892BC4323C34A7F416C] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[null]
+  C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[191115C9AA09B66A9BA1955528DF506862773E3A] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[null] {}
+[INFO ] 2019-11-01T01:26:16,348Z [nioEventLoopGroup-2-3] O=SMURFIES-pca246, L=Taipei, C=TW.userEventTriggered - Handshake completed with subject: O=SMURFIES-pca246, L=Taipei, C=TW {}
+[INFO ] 2019-11-01T01:26:16,349Z [nioEventLoopGroup-2-3] 51.152:10399:O=SMURFIES-pca246, L=Taipei, C=TW.onSocketConnected - Bridge Connected {}
+[INFO ] 2019-11-01T01:26:16,351Z [nioEventLoopGroup-2-3] O=dz0189, L=Adelaide, C=AU.onConnectionLocalOpen - Connection local open org.apache.qpid.proton.engine.impl.ConnectionImpl@6a230c84 {}
+[INFO ] 2019-11-01T01:27:25,370Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:27:26,383Z [nioEventLoopGroup-2-4] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:27:32,245Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Disconnected from 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:27:32,245Z [nioEventLoopGroup-2-3] O=SMURFIES-pca246, L=Taipei, C=TW.channelInactive - Closed client connection 05a5f355 from /35.162.51.152:10399 to /172.31.46.176:51118 {}
+[INFO ] 2019-11-01T01:27:32,245Z [nioEventLoopGroup-2-3] 51.152:10399:O=SMURFIES-pca246, L=Taipei, C=TW.onSocketConnected - Bridge Disconnected {}
+[INFO ] 2019-11-01T01:27:32,247Z [nioEventLoopGroup-2-3] O=dz0189, L=Adelaide, C=AU.onConnectionLocalClose - Connection local close org.apache.qpid.proton.engine.impl.ConnectionImpl@6a230c84 {}
+[INFO ] 2019-11-01T01:27:32,248Z [nioEventLoopGroup-2-3] O=dz0189, L=Adelaide, C=AU.onTransportError - Transport Error TransportImpl [_connectionEndpoint=org.apache.qpid.proton.engine.impl.ConnectionImpl@6a230c84, org.apache.qpid.proton.engine.impl.TransportImpl@3a072308] {}
+[INFO ] 2019-11-01T01:27:32,248Z [nioEventLoopGroup-2-3] O=dz0189, L=Adelaide, C=AU.onTransportError - Error: connection aborted {}
+[INFO ] 2019-11-01T01:27:33,246Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:27:34,255Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:27:36,258Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:27:36,260Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:27:40,264Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:27:40,266Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:27:48,274Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:27:48,277Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:28:04,292Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:28:04,293Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:28:36,323Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:28:36,325Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Connected to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:28:36,325Z [nioEventLoopGroup-2-1] O=SMURFIES-pca246, L=Taipei, C=TW.channelActive - New client connection ceb46429 from /35.162.51.152:10399 to /172.31.46.176:51146 {}
+[INFO ] 2019-11-01T01:28:36,408Z [nioEventLoopGroup-2-1] netty.LoggingTrustManagerWrapper.checkServerTrusted - Check Server Certpath:
+  C=TW,L=Taipei,O=SMURFIES-pca246[670533205A64A0D8EE4D0AB79B7A3B670C361A8E] issued by C=TW,L=Taipei,O=SMURFIES-pca246[null]
+  C=TW,L=Taipei,O=SMURFIES-pca246[33E274C8A1E57B94566AC4CD0E2B92B81DEFF8CE] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Doorman[null]
+  C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Doorman[8DE2CF0DD68F28500E3E8892BC4323C34A7F416C] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[null]
+  C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[191115C9AA09B66A9BA1955528DF506862773E3A] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[null] {}
+[INFO ] 2019-11-01T01:28:36,477Z [nioEventLoopGroup-2-1] O=SMURFIES-pca246, L=Taipei, C=TW.userEventTriggered - Handshake completed with subject: O=SMURFIES-pca246, L=Taipei, C=TW {}
+[INFO ] 2019-11-01T01:28:36,478Z [nioEventLoopGroup-2-1] 51.152:10399:O=SMURFIES-pca246, L=Taipei, C=TW.onSocketConnected - Bridge Connected {}
+[INFO ] 2019-11-01T01:28:36,481Z [nioEventLoopGroup-2-1] O=dz0189, L=Adelaide, C=AU.onConnectionLocalOpen - Connection local open org.apache.qpid.proton.engine.impl.ConnectionImpl@65776cba {}
+[INFO ] 2019-11-01T01:29:05,405Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Disconnected from 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:29:05,405Z [nioEventLoopGroup-2-1] O=SMURFIES-pca246, L=Taipei, C=TW.channelInactive - Closed client connection ceb46429 from /35.162.51.152:10399 to /172.31.46.176:51146 {}
+[INFO ] 2019-11-01T01:29:05,405Z [nioEventLoopGroup-2-1] 51.152:10399:O=SMURFIES-pca246, L=Taipei, C=TW.onSocketConnected - Bridge Disconnected {}
+[INFO ] 2019-11-01T01:29:05,408Z [nioEventLoopGroup-2-1] O=dz0189, L=Adelaide, C=AU.onConnectionLocalClose - Connection local close org.apache.qpid.proton.engine.impl.ConnectionImpl@65776cba {}
+[INFO ] 2019-11-01T01:29:05,408Z [nioEventLoopGroup-2-1] O=dz0189, L=Adelaide, C=AU.onTransportError - Transport Error TransportImpl [_connectionEndpoint=org.apache.qpid.proton.engine.impl.ConnectionImpl@65776cba, org.apache.qpid.proton.engine.impl.TransportImpl@77f0623f] {}
+[INFO ] 2019-11-01T01:29:05,408Z [nioEventLoopGroup-2-1] O=dz0189, L=Adelaide, C=AU.onTransportError - Error: connection aborted {}
+[INFO ] 2019-11-01T01:29:06,406Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:29:07,439Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:29:09,442Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:29:09,444Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:29:13,446Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:29:13,448Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:29:21,455Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:29:21,459Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:29:37,473Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:29:37,476Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:30:09,503Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:30:09,505Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Connected to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:30:09,505Z [nioEventLoopGroup-2-1] O=SMURFIES-pca246, L=Taipei, C=TW.channelActive - New client connection c1aa9667 from /35.162.51.152:10399 to /172.31.46.176:51168 {}
+[INFO ] 2019-11-01T01:30:09,556Z [nioEventLoopGroup-2-1] netty.LoggingTrustManagerWrapper.checkServerTrusted - Check Server Certpath:
+  C=TW,L=Taipei,O=SMURFIES-pca246[670533205A64A0D8EE4D0AB79B7A3B670C361A8E] issued by C=TW,L=Taipei,O=SMURFIES-pca246[null]
+  C=TW,L=Taipei,O=SMURFIES-pca246[33E274C8A1E57B94566AC4CD0E2B92B81DEFF8CE] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Doorman[null]
+  C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Doorman[8DE2CF0DD68F28500E3E8892BC4323C34A7F416C] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[null]
+  C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[191115C9AA09B66A9BA1955528DF506862773E3A] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[null] {}
+[INFO ] 2019-11-01T01:30:09,572Z [nioEventLoopGroup-2-1] O=SMURFIES-pca246, L=Taipei, C=TW.userEventTriggered - Handshake completed with subject: O=SMURFIES-pca246, L=Taipei, C=TW {}
+[INFO ] 2019-11-01T01:30:09,572Z [nioEventLoopGroup-2-1] 51.152:10399:O=SMURFIES-pca246, L=Taipei, C=TW.onSocketConnected - Bridge Connected {}
+[INFO ] 2019-11-01T01:30:09,576Z [nioEventLoopGroup-2-1] O=dz0189, L=Adelaide, C=AU.onConnectionLocalOpen - Connection local open org.apache.qpid.proton.engine.impl.ConnectionImpl@c6c264f {}
+[INFO ] 2019-11-01T01:31:42,384Z [nioEventLoopGroup-2-1] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:31:42,386Z [nioEventLoopGroup-2-2] netty.AMQPClient.operationComplete - Connected to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:31:42,387Z [nioEventLoopGroup-2-2] O=Regulator, L=Manila, C=PH.channelActive - New client connection 11716612 from /35.162.51.152:10062 to /172.31.46.176:50280 {}
+[INFO ] 2019-11-01T01:31:42,391Z [nioEventLoopGroup-2-2] netty.LoggingTrustManagerWrapper.checkServerTrusted - Check Server Certpath:
+  C=PH,L=Manila,O=Regulator[DB2E2D7523CFD9BDE8FADA77297FDD1F2C4849A9] issued by C=PH,L=Manila,O=Regulator[null]
+  C=PH,L=Manila,O=Regulator[BBA46948959CC9C51BF4E1218BEE52FDFA338E37] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Doorman[null]
+  C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Doorman[8DE2CF0DD68F28500E3E8892BC4323C34A7F416C] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[null]
+  C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[191115C9AA09B66A9BA1955528DF506862773E3A] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[null] {}
+[INFO ] 2019-11-01T01:31:42,404Z [nioEventLoopGroup-2-2] O=Regulator, L=Manila, C=PH.userEventTriggered - Handshake completed with subject: O=Regulator, L=Manila, C=PH {}
+[INFO ] 2019-11-01T01:31:42,405Z [nioEventLoopGroup-2-2] 51.152:10062:O=Regulator, L=Manila, C=PH.onSocketConnected - Bridge Connected {}
+[INFO ] 2019-11-01T01:31:42,407Z [nioEventLoopGroup-2-2] O=dz0189, L=Adelaide, C=AU.onConnectionLocalOpen - Connection local open org.apache.qpid.proton.engine.impl.ConnectionImpl@32de712c {}
+[INFO ] 2019-11-01T01:40:10,758Z [nioEventLoopGroup-2-2] netty.AMQPClient.operationComplete - Disconnected from 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:40:10,759Z [nioEventLoopGroup-2-2] O=Regulator, L=Manila, C=PH.channelInactive - Closed client connection 11716612 from /35.162.51.152:10062 to /172.31.46.176:50280 {}
+[INFO ] 2019-11-01T01:40:10,759Z [nioEventLoopGroup-2-2] 51.152:10062:O=Regulator, L=Manila, C=PH.onSocketConnected - Bridge Disconnected {}
+[INFO ] 2019-11-01T01:40:10,760Z [nioEventLoopGroup-2-2] O=dz0189, L=Adelaide, C=AU.onConnectionLocalClose - Connection local close org.apache.qpid.proton.engine.impl.ConnectionImpl@32de712c {}
+[INFO ] 2019-11-01T01:40:10,760Z [nioEventLoopGroup-2-2] O=dz0189, L=Adelaide, C=AU.onTransportError - Transport Error TransportImpl [_connectionEndpoint=org.apache.qpid.proton.engine.impl.ConnectionImpl@32de712c, org.apache.qpid.proton.engine.impl.TransportImpl@3908f222] {}
+[INFO ] 2019-11-01T01:40:10,761Z [nioEventLoopGroup-2-2] O=dz0189, L=Adelaide, C=AU.onTransportError - Error: connection aborted {}
+[INFO ] 2019-11-01T01:40:11,759Z [nioEventLoopGroup-2-3] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:40:12,783Z [nioEventLoopGroup-2-4] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:40:14,783Z [nioEventLoopGroup-2-1] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:40:14,785Z [nioEventLoopGroup-2-2] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:40:18,787Z [nioEventLoopGroup-2-3] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:40:18,789Z [nioEventLoopGroup-2-4] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:40:26,790Z [nioEventLoopGroup-2-1] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:40:26,796Z [nioEventLoopGroup-2-2] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:40:37,833Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Disconnected from 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:40:37,833Z [nioEventLoopGroup-2-1] O=SMURFIES-pca246, L=Taipei, C=TW.channelInactive - Closed client connection c1aa9667 from /35.162.51.152:10399 to /172.31.46.176:51168 {}
+[INFO ] 2019-11-01T01:40:37,833Z [nioEventLoopGroup-2-1] 51.152:10399:O=SMURFIES-pca246, L=Taipei, C=TW.onSocketConnected - Bridge Disconnected {}
+[INFO ] 2019-11-01T01:40:37,834Z [nioEventLoopGroup-2-1] O=dz0189, L=Adelaide, C=AU.onConnectionLocalClose - Connection local close org.apache.qpid.proton.engine.impl.ConnectionImpl@c6c264f {}
+[INFO ] 2019-11-01T01:40:37,835Z [nioEventLoopGroup-2-1] O=dz0189, L=Adelaide, C=AU.onTransportError - Transport Error TransportImpl [_connectionEndpoint=org.apache.qpid.proton.engine.impl.ConnectionImpl@c6c264f, org.apache.qpid.proton.engine.impl.TransportImpl@68bbc0a1] {}
+[INFO ] 2019-11-01T01:40:37,835Z [nioEventLoopGroup-2-1] O=dz0189, L=Adelaide, C=AU.onTransportError - Error: connection aborted {}
+[INFO ] 2019-11-01T01:40:38,834Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:40:39,855Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:40:41,857Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:40:41,859Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:40:42,797Z [nioEventLoopGroup-2-3] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:40:42,799Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:40:45,863Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:40:45,866Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:40:53,871Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:40:53,873Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:41:09,889Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:41:09,891Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:41:14,804Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:41:14,806Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:41:41,902Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:41:41,904Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:42:18,861Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:42:18,863Z [nioEventLoopGroup-2-1] netty.AMQPClient.operationComplete - Failed to connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:42:45,967Z [nioEventLoopGroup-2-4] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:42:45,969Z [nioEventLoopGroup-2-3] netty.AMQPClient.operationComplete - Connected to 35.162.51.152:10399 {}
+[INFO ] 2019-11-01T01:42:45,969Z [nioEventLoopGroup-2-3] O=SMURFIES-pca246, L=Taipei, C=TW.channelActive - New client connection 58156dca from /35.162.51.152:10399 to /172.31.46.176:51286 {}
+[INFO ] 2019-11-01T01:42:45,989Z [nioEventLoopGroup-2-3] netty.LoggingTrustManagerWrapper.checkServerTrusted - Check Server Certpath:
+  C=TW,L=Taipei,O=SMURFIES-pca246[670533205A64A0D8EE4D0AB79B7A3B670C361A8E] issued by C=TW,L=Taipei,O=SMURFIES-pca246[null]
+  C=TW,L=Taipei,O=SMURFIES-pca246[33E274C8A1E57B94566AC4CD0E2B92B81DEFF8CE] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Doorman[null]
+  C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Doorman[8DE2CF0DD68F28500E3E8892BC4323C34A7F416C] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[null]
+  C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[191115C9AA09B66A9BA1955528DF506862773E3A] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[null] {}
+[INFO ] 2019-11-01T01:42:46,007Z [nioEventLoopGroup-2-3] O=SMURFIES-pca246, L=Taipei, C=TW.userEventTriggered - Handshake completed with subject: O=SMURFIES-pca246, L=Taipei, C=TW {}
+[INFO ] 2019-11-01T01:42:46,008Z [nioEventLoopGroup-2-3] 51.152:10399:O=SMURFIES-pca246, L=Taipei, C=TW.onSocketConnected - Bridge Connected {}
+[INFO ] 2019-11-01T01:42:46,011Z [nioEventLoopGroup-2-3] O=dz0189, L=Adelaide, C=AU.onConnectionLocalOpen - Connection local open org.apache.qpid.proton.engine.impl.ConnectionImpl@5f828e17 {}
+[INFO ] 2019-11-01T01:44:26,956Z [nioEventLoopGroup-2-2] netty.AMQPClient.nextTarget - Retry connect to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:44:26,958Z [nioEventLoopGroup-2-4] netty.AMQPClient.operationComplete - Connected to 35.162.51.152:10062 {}
+[INFO ] 2019-11-01T01:44:26,959Z [nioEventLoopGroup-2-4] O=Regulator, L=Manila, C=PH.channelActive - New client connection 5a42c52a from /35.162.51.152:10062 to /172.31.46.176:50390 {}
+[INFO ] 2019-11-01T01:44:27,005Z [nioEventLoopGroup-2-4] netty.LoggingTrustManagerWrapper.checkServerTrusted - Check Server Certpath:
+  C=PH,L=Manila,O=Regulator[DB2E2D7523CFD9BDE8FADA77297FDD1F2C4849A9] issued by C=PH,L=Manila,O=Regulator[null]
+  C=PH,L=Manila,O=Regulator[BBA46948959CC9C51BF4E1218BEE52FDFA338E37] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Doorman[null]
+  C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Doorman[8DE2CF0DD68F28500E3E8892BC4323C34A7F416C] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[null]
+  C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[191115C9AA09B66A9BA1955528DF506862773E3A] issued by C=GB,ST=London,L=London,O=Cordite Foundation,OU=Cordite Foundation Network,CN=Root CA[null] {}
+[INFO ] 2019-11-01T01:44:27,037Z [nioEventLoopGroup-2-4] O=Regulator, L=Manila, C=PH.userEventTriggered - Handshake completed with subject: O=Regulator, L=Manila, C=PH {}
+[INFO ] 2019-11-01T01:44:27,038Z [nioEventLoopGroup-2-4] 51.152:10062:O=Regulator, L=Manila, C=PH.onSocketConnected - Bridge Connected {}
+[INFO ] 2019-11-01T01:44:27,040Z [nioEventLoopGroup-2-4] O=dz0189, L=Adelaide, C=AU.onConnectionLocalOpen - Connection local open org.apache.qpid.proton.engine.impl.ConnectionImpl@24a2b5a6 {}
