@@ -183,102 +183,102 @@ class AssetTradeFlowTests {
      * the Devon will receive 10 Prides and the Smurfies will receive 90 Prides.
      * TODO: Implement asset trade for the case where there is no Asset change but there is change for Prides.
      */
-//    @Test
-//    fun flowCorrectlyConductsAssetTradeAssumingPrideChange() {
-//        val prideAmount: Long = 1000
-//        val amountToPay: Long = 400
-//        val assetAmount: Long = 100
-//        val commission: Double = 0.0
-//
-//        // Issue Prides
-//        val prideIssueFlow = PrideIssueFlow.Initiator(prideAmount, smurfies)
-//        val prideIssueFuture = twigNode.startFlow(prideIssueFlow)
-//        network.runNetwork()
-//        prideIssueFuture.getOrThrow()
-//
-//        // Issue Assets
-//        val assetIssueFlow = AssetIssueFlow.Initiator(assetAmount)
-//        val assetIssueFuture = ownerNode.startFlow(assetIssueFlow)
-//        network.runNetwork()
-//        val stateAndRef = assetIssueFuture.getOrThrow().tx.outRefsOfType<AssetState>().single()
-//
-//        upgradeAssetStateToAssetStateNew(stateAndRef)
-//
-//        // Conduct Asset Trade
-//        val assetTradeFlow = AssetTradeFlow.Buyer(assetAmount = assetAmount,
-//                amountToPay = amountToPay, otherParty = owner, commission = commission)
-//        val assetTradeFuture = smurfiesNode.startFlow(assetTradeFlow)
-//        network.runNetwork()
-//        val tx = assetTradeFuture.getOrThrow().tx
-//
-//        val outputPrides = tx.outputsOfType<PrideState>()
-//        val outputAssets = tx.outputsOfType<AssetStateNew>()
-//
-//        // there is change, so both owner and Smurfies must receive Prides
-//        val ownerPrides = outputPrides.filter { it.owner.owningKey == owner.owningKey }
-//        val smurfiesPrides = outputPrides.filter { it.owner.owningKey == smurfies.owningKey }
-//        assert(ownerPrides.size == 1)
-//        assert(ownerPrides.single().amount.quantity == amountToPay)
-//        assert(smurfiesPrides.size == 1)
-//        assert(smurfiesPrides.single().amount.quantity == (prideAmount - amountToPay))
-//
-//        // no change, so smurfies should receive all of the assets
-//        // as there is no change, there should be only one state
-//        val smurfiesAssets = outputAssets.filter { it.owner.owningKey == smurfies.owningKey }
-//        assert(smurfiesAssets.size == 1)
-//        assert(smurfiesAssets.single().amount.quantity == assetAmount)
-//    }
+    @Test
+    fun flowCorrectlyConductsAssetTradeAssumingPrideChange() {
+       val prideAmount: Long = 1000
+      val amountToPay: Long = 400
+        val assetAmount: Long = 100
+        val commission: Double = 0.0
+
+        // Issue Prides
+        val prideIssueFlow = PrideIssueFlow.Initiator(prideAmount, smurfies)
+        val prideIssueFuture = twigNode.startFlow(prideIssueFlow)
+        network.runNetwork()
+        prideIssueFuture.getOrThrow()
+
+        // Issue Assets
+        val assetIssueFlow = AssetIssueFlow.Initiator(assetAmount)
+        val assetIssueFuture = ownerNode.startFlow(assetIssueFlow)
+        network.runNetwork()
+        val stateAndRef = assetIssueFuture.getOrThrow().tx.outRefsOfType<AssetState>().single()
+
+        upgradeAssetStateToAssetStateNew(stateAndRef)
+
+        // Conduct Asset Trade
+        val assetTradeFlow = AssetTradeFlow.Buyer(assetAmount = assetAmount,
+                amountToPay = amountToPay, otherParty = owner, commission = commission)
+        val assetTradeFuture = smurfiesNode.startFlow(assetTradeFlow)
+        network.runNetwork()
+        val tx = assetTradeFuture.getOrThrow().tx
+
+        val outputPrides = tx.outputsOfType<PrideState>()
+        val outputAssets = tx.outputsOfType<AssetStateNew>()
+
+        // there is change, so both owner and Smurfies must receive Prides
+        val ownerPrides = outputPrides.filter { it.owner.owningKey == owner.owningKey }
+        val smurfiesPrides = outputPrides.filter { it.owner.owningKey == smurfies.owningKey }
+        assert(ownerPrides.size == 1)
+        assert(ownerPrides.single().amount.quantity == amountToPay)
+        assert(smurfiesPrides.size == 1)
+        assert(smurfiesPrides.single().amount.quantity == (prideAmount - amountToPay))
+
+        // no change, so smurfies should receive all of the assets
+        // as there is no change, there should be only one state
+        val smurfiesAssets = outputAssets.filter { it.owner.owningKey == smurfies.owningKey }
+        assert(smurfiesAssets.size == 1)
+        assert(smurfiesAssets.single().amount.quantity == assetAmount)
+    }
 
     /**
      * Task 4.
      * This is the same as task 3 except we will now account for change in Assets.
      * TODO: Implement asset trade for the case where there is no Pride change but there is change for Assets.
      */
-//    @Test
-//    fun flowCorrectlyConductsAssetTradeAssumingAssetChange() {
-//        val prideAmount: Long = 1000
-//        val assetAmount: Long = 100
-//        val assetAmountToBuy: Long = 21
-//        val commission = 0.0
-//
-//        // Issue Prides
-//        val prideIssueFlow = PrideIssueFlow.Initiator(prideAmount, smurfies)
-//        val prideIssueFuture = twigNode.startFlow(prideIssueFlow)
-//        network.runNetwork()
-//        prideIssueFuture.getOrThrow()
-//
-//        // Issue Assets
-//        val assetIssueFlow = AssetIssueFlow.Initiator(assetAmount)
-//        val assetIssueFuture = ownerNode.startFlow(assetIssueFlow)
-//        network.runNetwork()
-//        val stateAndRef = assetIssueFuture.getOrThrow().tx.outRefsOfType<AssetState>().single()
-//
-//        upgradeAssetStateToAssetStateNew(stateAndRef)
-//
-//        // Conduct Asset Trade
-//        val assetTradeFlow = AssetTradeFlow.Buyer(assetAmount = assetAmountToBuy,
-//                amountToPay = prideAmount, otherParty = owner, commission = commission)
-//        val assetTradeFuture = smurfiesNode.startFlow(assetTradeFlow)
-//        network.runNetwork()
-//        val tx = assetTradeFuture.getOrThrow().tx
-//
-//        val outputPrides = tx.outputsOfType<PrideState>()
-//        val outputAssets = tx.outputsOfType<AssetStateNew>()
-//
-//        // no change, so owner should receive all the prides
-//        // as there is no change, there should be only one state
-//        val ownerPrides = outputPrides.filter { it.owner.owningKey == owner.owningKey }
-//        assert(ownerPrides.size == 1)
-//        assert(ownerPrides.single().amount.quantity == prideAmount)
-//
-//        // there is change, so both owner and Smurfies must receive assets
-//        val smurfiesAssets = outputAssets.filter { it.owner.owningKey == smurfies.owningKey }
-//        val ownerAssets = outputAssets.filter { it.owner.owningKey == owner.owningKey }
-//        assert(smurfiesAssets.size == 1)
-//        assert(smurfiesAssets.single().amount.quantity == assetAmountToBuy)
-//        assert(ownerAssets.size == 1)
-//        assert(ownerAssets.single().amount.quantity == (assetAmount - assetAmountToBuy))
-//    }
+    @Test
+    fun flowCorrectlyConductsAssetTradeAssumingAssetChange() {
+        val prideAmount: Long = 1000
+        val assetAmount: Long = 100
+        val assetAmountToBuy: Long = 21
+        val commission = 0.0
+
+        // Issue Prides
+        val prideIssueFlow = PrideIssueFlow.Initiator(prideAmount, smurfies)
+        val prideIssueFuture = twigNode.startFlow(prideIssueFlow)
+        network.runNetwork()
+        prideIssueFuture.getOrThrow()
+
+        // Issue Assets
+        val assetIssueFlow = AssetIssueFlow.Initiator(assetAmount)
+        val assetIssueFuture = ownerNode.startFlow(assetIssueFlow)
+        network.runNetwork()
+        val stateAndRef = assetIssueFuture.getOrThrow().tx.outRefsOfType<AssetState>().single()
+
+        upgradeAssetStateToAssetStateNew(stateAndRef)
+
+        // Conduct Asset Trade
+        val assetTradeFlow = AssetTradeFlow.Buyer(assetAmount = assetAmountToBuy,
+                amountToPay = prideAmount, otherParty = owner, commission = commission)
+        val assetTradeFuture = smurfiesNode.startFlow(assetTradeFlow)
+     network.runNetwork()
+        val tx = assetTradeFuture.getOrThrow().tx
+
+        val outputPrides = tx.outputsOfType<PrideState>()
+        val outputAssets = tx.outputsOfType<AssetStateNew>()
+
+        // no change, so owner should receive all the prides
+        // as there is no change, there should be only one state
+        val ownerPrides = outputPrides.filter { it.owner.owningKey == owner.owningKey }
+        assert(ownerPrides.size == 1)
+        assert(ownerPrides.single().amount.quantity == prideAmount)
+
+        // there is change, so both owner and Smurfies must receive assets
+        val smurfiesAssets = outputAssets.filter { it.owner.owningKey == smurfies.owningKey }
+        val ownerAssets = outputAssets.filter { it.owner.owningKey == owner.owningKey }
+        assert(smurfiesAssets.size == 1)
+        assert(smurfiesAssets.single().amount.quantity == assetAmountToBuy)
+        assert(ownerAssets.size == 1)
+        assert(ownerAssets.single().amount.quantity == (assetAmount - assetAmountToBuy))
+    }
 
     /**
      * Task 5.

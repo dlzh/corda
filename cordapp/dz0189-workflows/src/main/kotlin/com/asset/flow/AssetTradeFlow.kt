@@ -146,7 +146,7 @@ object AssetTradeFlow {
             // Sign transaction.
             progressTracker.currentStep = SIGNING_TRANSACTION
             val partSignedTx = serviceHub.signInitialTransaction(txBuilder)
-
+            
             // Gather signatures from other parties.
             progressTracker.currentStep = GATHERING_SIGS
             val twig = getIssuerParty(serviceHub)
@@ -184,10 +184,6 @@ object AssetTradeFlow {
             val notary = serviceHub.networkMapCache.notaryIdentities[0]
             val ptx = TransactionBuilder(notary)
             
-            //DZ Implementation
-             val (tx, cashSigningPubKeys) = 
-             CashUtils.generateSpend(serviceHub, ptx, tradeRequest.price, ourIdentityAndCert, tradeRequest.payToIdentity.party)
-            
             
             //FROM QUYEN
             // Account for Asset change if change exists.
@@ -205,35 +201,41 @@ object AssetTradeFlow {
             
             
             val tx = TransactionBuilder(notary)
+             
+            val pPride = prides.first().state.data
+            val pAsset = assets.first().state.data
+            val amtPride = prides.map{it.state.data.amount.quantity}.sum()
+            val change = amtPride - amountToPay 
+            val amount1 = pPride.amount
             
-            val prideList = prides.map {it.state.data}
-            val assetList = assets.map {it.state.data}
-            val pride = prides.first().state.data
-            val asset = assets.first().state.data
-            val assetTrade = asset.withNewOwner(pride.owner).ownableState
-            val prideTrade = pride.withNewOwner(asset.owner).ownableState
+            val amtAsset = assets.map{it.state.data.amount.quantity}.sum()
+            val assetChange = amtAsset - assetAmount
+            val astAmount = pAsset.amount
             
+            val newPride = pPride.withNewOwnerAndAmount(amount1.copy(amountToPay),pAsset.owner)
+            val newPrideChange = pPride.withNewOwnerAndAmount(amount1.copy(change),pPride.owner)
+            val newAsset = pAsset.withNewOwnerAndAmount(astAmount.copy(pPride.owner), ).ownableState
+            val newAssetChange = pAsset.withNewOwnerAndAmount(astAmount.copy(astAmount, pAsset.owner)
             
-            val assetKeys = asset.participants.map {it.owningKey}
-            val prideKeys = pride.participants.map {it.owningKey}
+            val assetKeys = pAsset.participants.map {it.owningKey}
+            val prideKeys = pPride.participants.map {it.owningKey}
             val twig = getIssuerParty(serviceHub).owningKey
-            val signers = prideKeys + twig
+            val signers = prideKeys +  twig
             
-            val assetCommand = Command(AssetContractNew.Commands.Trade(),assetKeys)
+            val assetCommand = Command(AssetContractNew.Commands.Trade(), assetKeys)
             val prideCommand = Command(PrideContract.Commands.Transfer(),signers)
             
+            assets.map{tx.addInputState(it)}
+            prides.map{tx.addInputState(it)}
             
-            
-            tx.addInputState(assets.first())
-              .addInputState(prides.first())
-              .addOutputState(assetTrade,AssetContractNew.ID)
-              .addOutputState(prideTrade,PrideContract.PRIDE_CONTRACT_ID)
-              .addCommand(assetCommand)
-              .addCommand(prideCommand)
-              
+            tx.addOutputState(newPride, PrideContract.PRIDE_CONTRACT_ID)
+                .addOutputState(newPrideChange, PrideContract.PRIDE_CONTRACT_ID)
+                .addOutputState(newAsset, AssetContractNew.ID)
+                .addOutputState(newAssetChange, AssetContractNew.ID)
+                .addCommand(assetCommand)
+                .addCommand(prideCommand)
+           
              return tx
-            
-         
 
         }
     }
